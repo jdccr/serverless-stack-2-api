@@ -23,5 +23,7 @@ git branch							            Ver en qué branch estamos
 git merge [NombreBranch]			            Merge de [NombreBranch] al branch actual
 git config --global user.name [NOMBRE]          Configurar nombre usuario
 git config --global user.email [EMAIL]          Configurar correo usuario
+git config --get user.name                      Obtener nombre usuario
+git config --get user.email                     Obtener correo usuario
 git [COMMAND] -h                                Obtener ayuda de un comando
 git help [COMMAND]                              Mostrar la página de ayuda de un comando
