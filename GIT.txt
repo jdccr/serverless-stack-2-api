@@ -1,0 +1,29 @@
+https://frostqui.github.io/git-comandos-basicos-avanzados
+
+================================= 	            =============================================
+           COMANDO			                                          DESCRIPCIÓN
+================================= 	            =============================================
+git init							            Inicializa repositorio git
+git status							            Imprime archivos pendientes
+git add	.							            Añadir última versión de archivos a control de código fuente
+git rm [NombreArchivo]                          Elimina archivos del control de código fuente
+git -f rm [NombreArchivo]                       Fuerza eliminación de archivos modificados
+git mv [file_from] [file_to]                    Renombrar archivo
+git commit -m "Texto del commit"	            Check-in local de los archivos agregados/modificados/eliminados
+git log								            Imprimir los commit realizados
+git clone [URL]						            Descargar proyecto de GitHub
+git pull							            Get latest version del remoto y merge local
+git remote add [NAME] [URL]			            Definir [NAME] como el repositorio que está en esa URL
+git remote                                      Ver lista de repositorios remotos
+git remote -v                                   Verificar configuración de repositorios remotos
+git push origin master				            Check-in remoto a origin desde master
+git checkout -b [NombreBranch]		            Crear un branch
+git checkout [NombreBranch] 			        Posicionarnos en un branch
+git branch							            Ver en qué branch estamos
+git merge [NombreBranch]			            Merge de [NombreBranch] al branch actual
+git config --global user.name [NOMBRE]          Configurar nombre usuario
+git config --global user.email [EMAIL]          Configurar correo usuario
+git config --get user.name                      Obtener nombre usuario
+git config --get user.email                     Obtener correo usuario
+git [COMMAND] -h                                Obtener ayuda de un comando
+git help [COMMAND]                              Mostrar la página de ayuda de un comando
