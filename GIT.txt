@@ -27,3 +27,4 @@ git config --get user.name                      Obtener nombre usuario
 git config --get user.email                     Obtener correo usuario
 git [COMMAND] -h                                Obtener ayuda de un comando
 git help [COMMAND]                              Mostrar la página de ayuda de un comando
+git diff [filename]     (q para salir)          Ver cambios de archivo antes de darle commit
